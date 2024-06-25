@@ -1,5 +1,5 @@
 import { Box, Avatar, Heading, Text, VStack, HStack, Link } from "@chakra-ui/react"
-import { FaGithub, FaTwitter } from "react-icons/fa"
+import { FaDiscord, FaGithub, FaTwitter } from "react-icons/fa"
 import { SiScrapbox } from "react-icons/si";
 import { FaBook } from "react-icons/fa";
 
@@ -23,6 +23,9 @@ export default function Home() {
           </Link>
           <Link href="https://note.com/gal_ichiro" isExternal>
             <FaBook size="24" />
+          </Link>
+          <Link href="https://discord.gg/ECtFgmme" isExternal>
+            <FaDiscord size="24" />
           </Link>
         </HStack>
       </VStack>
