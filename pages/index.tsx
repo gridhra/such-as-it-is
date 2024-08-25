@@ -2,6 +2,7 @@ import { Box, Avatar, Heading, Text, VStack, HStack, Link } from "@chakra-ui/rea
 import { FaDiscord, FaGithub, FaTwitter } from "react-icons/fa"
 import { SiScrapbox } from "react-icons/si";
 import { FaBook } from "react-icons/fa";
+import { discordUrl, gitHubUrl, noteUrl, scrapboxUrl, twitterUrl } from "@/config/Links";
 
 export default function Home() {
   const spacing = 8
@@ -12,19 +13,19 @@ export default function Home() {
         <Heading>Aquila Takayama</Heading>
         <Text fontSize="xl">IT Engineer / Scholar</Text>
         <HStack spacing={4}>
-          <Link href="https://github.com/yiegle" isExternal>
+          <Link href={gitHubUrl} isExternal>
             <FaGithub size="24" />
           </Link>
-          <Link href="https://twitter.com/such_as_it_is" isExternal>
+          <Link href={twitterUrl} isExternal>
             <FaTwitter size="24" />
           </Link>
-          <Link href="https://scrapbox.io/aquila" isExternal>
+          <Link href={scrapboxUrl} isExternal>
             <SiScrapbox size="24" />
           </Link>
-          <Link href="https://note.com/gal_ichiro" isExternal>
+          <Link href={noteUrl} isExternal>
             <FaBook size="24" />
           </Link>
-          <Link href="https://discord.gg/ECtFgmme" isExternal>
+          <Link href={discordUrl} isExternal>
             <FaDiscord size="24" />
           </Link>
         </HStack>
