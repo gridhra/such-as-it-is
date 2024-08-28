@@ -1,7 +1,7 @@
 import { Box, Avatar, Heading, Text, VStack, HStack, Link } from "@chakra-ui/react"
-import { FaDiscord, FaGithub, FaTwitter } from "react-icons/fa"
+import { FaDiscord, FaGithub, FaTwitter, FaRegCalendarAlt } from "react-icons/fa"
 import { SiScrapbox } from "react-icons/si";
-import { discordUrl, gitHubUrl, scrapboxUrl, twitterUrl } from "@/config/Links";
+import { discordUrl, gitHubUrl, scrapboxUrl, timerexUrl, twitterUrl } from "@/config/Links";
 
 export default function Home() {
   const spacing = 8
@@ -23,6 +23,9 @@ export default function Home() {
           </Link>
           <Link href={discordUrl} isExternal>
             <FaDiscord size="24" />
+          </Link>
+          <Link href={timerexUrl} isExternal>
+            <FaRegCalendarAlt size="24" />
           </Link>
         </HStack>
       </VStack>
