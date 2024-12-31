@@ -13,3 +13,13 @@ Powered by Next.js
 # Run Development Environment
 1. run ``yarn dev``
 2. visit http:localhost:3000
+
+# directory structure
+
+```bash
+.
+├── components
+├── pages
+├── public
+└── styles
+```
