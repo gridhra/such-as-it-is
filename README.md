@@ -1,6 +1,6 @@
 # [such-as-it-is.com](https://such-as-it-is.com)
 
-Profile Site of Aquila Takayama
+My Profile Site
 
 Powered by Next.js
 
